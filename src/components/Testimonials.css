@@ -1,0 +1,35 @@
+.testimonials-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.testimonial-feedback {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+}
+
+.testimonial-location {
+  color: #555;
+  font-size: 0.9em;
+}
