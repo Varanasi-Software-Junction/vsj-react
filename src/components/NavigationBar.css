@@ -1,52 +1,27 @@
 .nav-bar {
-    background-color: #333; /* Dark background for a traditional theme */
-    padding: 15px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .nav-bar ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-bar li {
-    color: #fff; /* White text for contrast */
-    font-size: 1.1em;
-    font-weight: 500;
-    cursor: pointer;
-    transition: color 0.3s;
-  }
-  
-  .nav-bar li:hover {
-    color: #f0a500; /* A warm, traditional highlight color */
-  }
-  
-  .nav-bar li:active {
-    color: #ffcc00; /* Slightly brighter color when active */
-  }
-  
-  .nav-bar li + li {
-    margin-left: 20px;
-  }
-  
-  .nav-bar a {
-    text-decoration: none;
-    color: inherit; /* Inherits the color property from the list item */
-  }
-  
-  @media (max-width: 768px) {
-    .nav-bar ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .nav-bar li {
-      margin-bottom: 10px;
-    }
-  }
-  
+  background-color: #f4c27a; /* Light saffron background */
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  color: #333; /* Darker text for contrast */
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-bar li:hover {
+  color: #bf8b30; /* Darker saffron for hover */
+}

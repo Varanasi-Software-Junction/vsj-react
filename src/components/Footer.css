@@ -1,0 +1,32 @@
+.footer {
+    background-color: #fdf3e0; /* Light saffron background */
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #e0b977; /* Saffron border */
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #804a00; /* Dark saffron text */
+  }
+  
+  .footer-links {
+    margin: 10px 0;
+  }
+  
+  .footer-links a {
+    color: #bf8b30; /* Medium saffron for links */
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #804a00; /* Darker saffron for hover */
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  

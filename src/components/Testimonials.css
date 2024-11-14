@@ -1,6 +1,6 @@
 .testimonials-section {
   padding: 40px;
-  background-color: #f9f9f9;
+  background-color: #fff8e5; /* Light saffron background */
   text-align: center;
 }
 
@@ -12,24 +12,26 @@
 }
 
 .testimonial-card {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
+  background-color: #fdf3e0; /* Softer saffron for card background */
+  border: 1px solid #e0b977; /* Subtle saffron border */
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(191, 139, 48, 0.1); /* Light saffron shadow */
   max-width: 300px;
 }
 
 .testimonial-feedback {
   font-style: italic;
   margin-bottom: 15px;
+  color: #804a00; /* Dark saffron for feedback text */
 }
 
 .testimonial-name {
   font-weight: bold;
+  color: #bf8b30; /* Medium saffron for name */
 }
 
 .testimonial-location {
-  color: #555;
+  color: #8a5e2a; /* Softer saffron for location */
   font-size: 0.9em;
 }

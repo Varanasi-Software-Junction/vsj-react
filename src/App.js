@@ -5,6 +5,8 @@ import HeroSection from './components/HeroSection';
 import PlacesGrid from './components/PlacesGrid';
 import BookingPanel from './components/BookingPanel';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
+// import Footer from './components/Footer'; // Uncomment if adding a Footer component
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <PlacesGrid />
       <BookingPanel />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
