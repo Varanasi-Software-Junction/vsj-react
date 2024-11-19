@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
 import "./NavigationBar.css";
 
 const NavigationBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   return (
     <div className="navbar-container">
       <div className="logo">Logo</div>
-      <nav className="menu">
+      <button className="menu-button" onClick={toggleMenu}>
+        <FaBars />
+      </button>
+      <nav className={`menu ${isOpen ? "menu-open" : ""}`}>
         <ul>
           <li><a href="/home">Home</a></li>
           <li><a href="/about">About</a></li>
