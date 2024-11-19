@@ -1,27 +1,29 @@
-.nav-bar {
-  background-color: #f4c27a; /* Light saffron background */
-  padding: 15px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Logo on left, menu on right */
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
 }
 
-.nav-bar ul {
-  display: flex;
-  justify-content: space-around;
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex; /* Items inline */
 }
 
-.nav-bar li {
-  color: #333; /* Darker text for contrast */
-  font-size: 1.1em;
-  font-weight: 500;
-  cursor: pointer;
-  transition: color 0.3s;
+.menu li {
+  margin: 0 15px;
 }
 
-.nav-bar li:hover {
-  color: #bf8b30; /* Darker saffron for hover */
+.menu a {
+  text-decoration: none;
+  color: white;
 }
