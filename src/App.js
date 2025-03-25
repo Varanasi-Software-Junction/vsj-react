@@ -11,12 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
-      <HeroSection />
-      <PlacesGrid />
-      <BookingPanel />
-      <Testimonials />
-      <Footer />
+      <h1>My site on Vercel</h1>
     </div>
   );
 }
